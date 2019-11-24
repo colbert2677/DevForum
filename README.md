@@ -16,6 +16,8 @@ There is also a directory inside this which shows what tutorials I'm in the proc
 
 \* Logging on can prove problematic. GitHub has more guaranteed uptime than the Roblox DevForum (I unashamedly say) and I won't be able to write wherever, whenever (including in school). With my drafts on GitHub, I just need to log on here and write, then post them when I feel they're ready. I can also get better live previews.
 
+Each thread's only deviation is a source to the DevForum post. Please give me upvotes to boost the numbers on my profile that do absolutely nothing.
+
 There was more to say but I forgot. I'm writing this at 5:38 AM.
 
 ___
