@@ -13,7 +13,9 @@ ___
 I've hopefully organised the contents of this repository in such a way that navigation should be trivial and easy. Accessibility is a treat especially when it comes to archives. Below are the directories found in this repository and what they mean to me.
 
 ### Community Tutorials
-This directory contains a list of all tutorials I have written straight from source. A lot of my threads tend to get lost when new tutorials are posted, so those are preserved here. There is a lack of comments here as well, so you can browse only the content of the thread. Sometimes there may be some useful tidbits in the comments but that's somewhat uncommon.
+This directory contains a list of tutorials I have written straight from source. A lot of my threads tend to get lost when new tutorials are posted, so those are preserved here. There is a lack of comments here as well, so you can browse only the content of the thread. Sometimes there may be some useful tidbits in the comments but that's somewhat uncommon.
+
+I have selectively chosen tutorials to put in here. Threads that hold no meaning or aren't worth archiving have been left out. For example, my very first tutorial was written to work around buggy Gui input behaviours. That method has long since been outdated and was initially bad to begin with, therefore it does not appear here.
 
 There is also a directory inside this which shows what tutorials I'm in the process of writing. I keep them here for a few reasons:
 - Writing it directly on the DevForum means I have to log on\*
@@ -23,8 +25,6 @@ There is also a directory inside this which shows what tutorials I'm in the proc
 \* Logging on can prove problematic. GitHub has more guaranteed uptime than the Roblox DevForum (I unashamedly say) and I won't be able to write wherever, whenever (including in school). With my drafts on GitHub, I just need to log on here and write, then post them when I feel they're ready. I can also get better live previews.
 
 Each thread's only deviation is a source to the DevForum post. Please give me upvotes to boost the numbers on my profile that do absolutely nothing.
-
-There was more to say but I forgot. I'm writing this at 5:38 AM.
 
 ___
 
