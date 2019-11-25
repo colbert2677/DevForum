@@ -3,6 +3,12 @@ A repository of DevForum content ranging from whole threads to code snippits whi
 
 ___
 
+## Wiki
+
+The repository wiki is still in progress, but hopefully it can be set up for expanding on content. With respect to the fact that this repository is meant to be an archive and drafting place, the wiki can provide extra content and resources to work with. I haven't worked with GitHub Wikis before but perhaps if contributions are public, you can add reference content or simplified versions of threads.
+
+___
+
 ## Repository Contents
 I've hopefully organised the contents of this repository in such a way that navigation should be trivial and easy. Accessibility is a treat especially when it comes to archives. Below are the directories found in this repository and what they mean to me.
 
