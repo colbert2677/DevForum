@@ -1,3 +1,7 @@
+Source: https://devforum.roblox.com/t/verifying-part-touches-via-the-client-for-client-side-interactions/359133
+
+___
+
 Every now and again, a question pops up on Scripting Support regarding handling part touches from the client. Two points are usually raised in these threads: the events are supposedly replicating despite being connected from the client, or that everyone's seeing client-connected events.
 
 The intention of this thread is to clear the air about client-based part touch detections, look into some explanations and hopefully provide some useful knowledge.
