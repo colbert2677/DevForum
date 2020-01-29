@@ -20,10 +20,10 @@ The root issue often does not get addressed in an XY scenario. Solution Y either
 
 I will be using a recent example of an XY problem that I've encountered here. I feel this would be a great example to use since it's also easy to break down and address.
 
-> **X (root problem)**
+> **X (root problem)**\
 > Place1 is experiencing input lag. Controls are not responsive.
 > 
-> **Y (attempted solution)**
+> **Y (attempted solution)**\
 > Send the player to subsidiary games depending on their device type.
 > 
 > **Secondary problems**
