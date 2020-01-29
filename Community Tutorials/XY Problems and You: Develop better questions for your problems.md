@@ -1,36 +1,49 @@
-Source: https://devforum.roblox.com/t/xy-problems-and-you-developing-better-concise-questions-about-your-problems/239933
+I've noticed many XY Problems appearing on Help and Feedback. In light of this, I wanted to create a thread introducing some links related to the XY Problem and talk about it as it relates to the DevForum; what is it, why it's an issue and what we can do to avoid it.
 
-___
+The XY problem does have a [dedicated explanation website](http://xyproblem.info). For quick reference's sake, of course, [XY Problem on Wikipedia](https://en.wikipedia.org/wiki/XY_problem). Both are acceptable sources for learning about the XY problem. I personally find that the former is easier to understand and gain information from.
 
-I've noticed many XY Problems appearing on Development Support. In addition to the appearance of these XY problems, I've noticed a lot of mentions of such in the past. In light of this, I wanted to take a bit of time to create a thread introducing some links related to the XY Problem and talk about it a bit. Here is a full run-down - what it is, what you should do and what's wrong with it.
+Understanding the XY Problem and avoiding it is very helpful for when you create threads in the future, whether it's on the DevForum or any other support location. You may have a great question and all, but there may be a better solution or even a broader picture being missed out on.
 
-This is an information and resource thread if you're looking for material on the XY problem. More commonly however, the website dedicated to describing the XY problem (below as Link 1) is linked in threads. Feel free to read on!
-
-Link 1: [xyproblem.info](http://xyproblem.info)
-Link 2: [Wikipedia](https://en.wikipedia.org/wiki/XY_problem)
-
-Understanding the XY Problem and avoiding it could be very helpful for when you create threads in the future, whether it's on the DevForum or any other support location. You may have a great question and all, but there may be a better solution or even a broader picture being missed out on.
-
-For those of you who are looking for a quick read without opening any of the links, I can try explaining the XY Problem in the best terms I can do.
+While the links above are great ways to explain what the XY problem is, I feel a third explanation may be helpful when it's specific to the forums. As a developer who didn't understand this term, let alone know it existed shortly before this tutorial was created, allow me to explain.
 
 ___
 
 # What exactly is the XY Problem?
 
-The XY Problem pertains to asking about an attempted solution (Y) over an actual problem (X). A secondary issue is spawned due to the application of solution Y in which the user believes will solve the problem X. This leads to the direct problem X being skimmed over to try and repair solution attempt Y.
+The XY problem refers to asking about an attempted solution, Y over the actual problem, X. This is often because the user doesn't understand the root issue so they attempt to apply a fix which in itself is faulty or the user doesn't know how to do, this spawning a second issue. Problem X is then shelved while the user tries to ask for help repairing solution Y.
 
-# What is the issue in an XY Problem?
+# What is the issue with an XY Problem?
 
-Often at times, solution Y either does not solve problem X or it is a poor resolution. You could see solution Y as a band-aid fix for problem X, but this means that the root problem still exists.
+The root issue often does not get addressed in an XY scenario. Solution Y either doesn't solve problem X, is a poor resolution or just serves as a band-aid fix. Band-aid fixes should not be relied upon as they are temporary and do not resolve the underlying root issue.
 
 # What is an example of an XY Problem?
 
-I'd like to use a recent example that came across the forums. I absolutely do not intend to defame the developer who posted this, note that, but I feel like it's an excellent learning point to reference from.
+I will be using a recent example of an XY problem that I've encountered here. I feel this would be a great example to use since it's also easy to break down and address.
 
-*Problem X (Root Problem):* Place1 is currently experiencing input lag.
-*Attempted Solution Y:* Players are teleported to subsidiary (side) games based on their device type.
-*Secondary Problem:* Unsure of how to fetch the device that a player is using.
-*Leftover Problem:* Input lag is left unaddressed in order to try fixing or applying Y.
+> **X (root problem)**
+> Place1 is experiencing input lag. Controls are not responsive.
+> 
+> **Y (attempted solution)**
+> Send the player to subsidiary games depending on their device type.
+> 
+> **Secondary problems**
+> - Developer is not sure how to fetch the device that a player is using.
+> - Input lag isn't actually addressed.
+
+As you can see from the above, the developer is experiencing input lag in their game. As opposed to trying to diagnose the source of input lag, they resolve to teleport a player to different games based on their type of device and shelve input lag.
+
+There are many reasons why leaving input lag unaddressed and hopping over to teleporting users around is a problem. Other than the very obvious fact that input lag can still occur, there is a list of other reasons why this is not a good idea.
+
+<details>
+<summary>Interested?</summary>
+
+- **Roblox does not natively support a way to check what device a player is using.** The way developers have done this so far is to check what input devices are enabled on the client as well as what types of input they are passing via UserInputService.
+
+- **You will separate your communities.** The way matchmaking works on Roblox allows for users to play with their friends, no matter what device they're using. If you, a mobile user wants to play with your friend, a computer user, you will not be able to due to differing devices. That is assuming this teleport system is actually implemented.
+
+- **Maintenance will become significantly difficult for you.** Suppose you have a game that spans across several places. In order to properly implement this system, you now need to make different versions of all of these places: computer, mobile and possibly Xbox. Your place count is now inflated against the formula `n2` (`n3` with Xbox) where `n` is the number of places. So if you have a 10-place game, get ready to maintain 20-30 places.
+
+</details>
 
 # How can the XY Problem be avoided?
 
@@ -38,8 +51,16 @@ Using the example above, the question could've been left at "my game is experien
 
 Most likely, input lag has to do with performance or actual code - that's assuming it only happens in that one place and nowhere else. There are many debugger tools available to you as a developer on Roblox Studio - three good starting places are the [F9 Developer Console](https://developer.roblox.com/articles/Developer-Console), the [Script Performance](https://developer.roblox.com/articles/Improving-Performance) window (this article includes a general article on performance) and the [MicroProfiler](https://developer.roblox.com/articles/MicroProfiler).
 
-Without getting too much into the example ordeal, the linked resources explain the XY Problem and avoiding it better. Just like Scripting Support guidelines, you should always be sure to:
+For other matters, even including programming, there are lots of forums beyond the DevForum. For example: if you do modelling there is the Blender Forums (if you use Blender) and surely a lot of content you can find with a Google Search about how to do something.
 
-- Include as much information as you can. Others require a starting point to work off of to help in investigating or solving your root issue.
-- Provide as much detail as you can when others ask for more information. This helps looking into the issue a little less of a chore.
-- Explain what solutions you've already attempted and how successful they've been. One of the solutions may actually be the key to tackling the problem.
+For best results in receiving help about an issue, try applying these practices:
+
+- Include as much information as you can from the getgo. Others require a starting point to work off of to help in investigating or solving your root issue. Less questions are asked to dig information out of you and more time is spent towards providing potential solutions.
+
+- Before responding about an attempted solution not working, make sure to fiddle around with it a bit. If still that doesn't work, feel free to create a response with information about your test. Don't just say a solution hasn't worked for you; explain how it doesn't work and get some console screenshots if you can.
+
+- Explain what solutions you've already attempted and how successful they've been. One of the solutions may actually be the key to tackling the problem but you may just be confused as to how to properly implement it.
+
+- *Always* try doing things yourself first before posting a thread, or test before replying about something. You can often get an answer quicker than waiting hours for responses. If your own attempts aren't fairing well, feel free to create a help thread but also be sure to try tinkering with your problem while waiting for responses. You can depend on us as the DevForum is a learning and helping environment, but don't be too dependent!
+
+I hope this has been of some use to you. There's a lot of reading here, I understand, but I would write it out again if it meant I could provide something for the community to learn from. :slight_smile: 
