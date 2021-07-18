@@ -1,3 +1,7 @@
+Source: https://devforum.roblox.com/t/xy-problems-and-you-develop-better-questions-for-your-problems/239933
+
+___
+
 I've noticed many XY Problems appearing on Help and Feedback. In light of this, I wanted to create a thread introducing some links related to the XY Problem and talk about it as it relates to the DevForum; what is it, why it's an issue and what we can do to avoid it.
 
 The XY problem does have a [dedicated explanation website](http://xyproblem.info). For quick reference's sake, of course, [XY Problem on Wikipedia](https://en.wikipedia.org/wiki/XY_problem). Both are acceptable sources for learning about the XY problem. I personally find that the former is easier to understand and gain information from.
